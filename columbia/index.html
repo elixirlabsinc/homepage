@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><!-- Disable horrible auto-skype for contact numbers in IE -->
+    <meta name="description" content="Add a site description here"><!-- Add your site description -->
+    <meta name="author" content="Add author description here"><!-- Add your author description -->
+    <meta name="keywords" content="add,some,general,keywords,here,about,your,site"><!-- Add sites your keywords -->
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" /><!-- Include a Favicon, (always keep in root of folder) -->
+
+    <title>Elixir Labs</title><!-- Your page/site title -->
+
+    <!-- Load Our CSS - Do not alter the load order -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core - ALways load first -->
+    <link href="css/animate.css" rel="stylesheet"><!-- Animatations -->
+    <link href="css/icomoon.css" rel="stylesheet"><!-- Icon Font -->
+    <link href="css/flexslider.css" rel="stylesheet"><!-- Flexslider styles for #blogfeed -->
+    <link href="css/style.css" rel="stylesheet"><!-- Main theme stylesheet -->
+    <link href="css/custom.css" rel="stylesheet"><!-- Custom styles - Always load last -->
+
+    <!-- Load our fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE9 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+
+    <!-- Load our jQuery, with an alternative source/fallback to our own version if request is unavailable -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="home">
+
+    <!-- Our page loader -->
+    <div class="loadstack">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ============================ Main menu, (modal window) ============================ -->
+
+    <div id="menumodal" class="modal fade" tabindex="-1" role="dialog" aria-label="menumodalLabel" aria-hidden="true">
+
+        <!-- Close modal trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Explore</h3>
+        </div>
+
+        <!-- Menu content -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Logo for desktops/large screens -->
+                    <div id="menumodalLabel" class="modal-title">
+                        <div class="modallogo">
+                            <img src="img/logosmall.png" alt="Columbia Logo">
+                        </div>
+                        <div class="modaltagline">
+                            <h3>Building solutions for social good</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="row motion">
+                        <li class="col-md-4 col-sm-6 two">
+                            <div class="menubg" style="background-image: url('img/menu/index.jpg')"></div>
+                            <a href="index.html" title="Home with Color Overlay Hero Image">Home<span>What we're doing</span></a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 eighteen">
+                            <div class="menubg" style="background-image: url('img/menu/about.jpg')"></div>
+                            <a href="about.html" title="About">About<span>Who we are</span></a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 twentyfour">
+                            <div class="menubg" style="background-image: url('img/menu/contact.jpg')"></div>
+                            <a href="contact.html" title="Contact">Contact Us<span>Submit proposals or join the team</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h3>Contact Us</h3>
+                    <h4>contact@elixirlabs.org</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ End Main Navigation ==================================== -->
+
+    <!-- ============================ Social menu, (modal window) ============================ -->
+
+    <div id="socialmodal" class="modal fade" tabindex="-1" role="dialog" aria-label="socialmodalLabel" aria-hidden="true">
+
+        <!-- Menu Trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Be Social</h3>
+        </div>
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Connect with Jonathan Ive</h3>
+                    <hr class="mini white central">
+                    <ul class="socialicons motion">
+                        <li class="two twitter"><a href="http://twitter.com/" title="Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li class="four"><a href="http://dribbble.com/" title="Dribbble" class="dribbble" target="_blank"><span class="icon-dribbble"></span></a></li>
+                        <li class="six"><a href="http://facebook.com/" title="Facebook" class="facebook" target="_blank"><span class="icon-facebook"></span></a></li>
+                        <li class="eight"><a href="http://instagram.com/" title="Instagram" class="instagram" target="_blank"><span class="icon-instagram"></span></a></li>
+                        <li class="ten"><a href="http://vimeo.com/" title="Vimeo" class="vimeo" target="_blank"><span class="icon-vimeo"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============================== End social menu ============================== -->
+
+    <!-- ============================ Header/fixed sidebar ============================ -->
+
+    <header id="header">
+        
+        <!-- Main menu toggle -->
+        <button class="toggle" data-toggle="modal" data-target="#menumodal">
+            <span class="menu-bar bar-1"></span>
+            <span class="menu-bar bar-2"></span>
+            <span class="menu-bar bar-3"></span>
+        </button>
+        
+        <!-- Second logo for mobiles/tablets only. Maximum height of 65px -->
+        <div class="mobile_logo">
+            <img src="img/logosmall.png" alt="Columbia Logo">
+        </div>
+
+    </header>
+    
+    <!-- End header/fixed sidebar -->
+
+    <!-- ============================ Start the page content ============================ -->
+
+    <!-- Leading Page Container -->
+    <!-- Always keep all page content wrapped in this div, with id="wrapper" and class="page-content" -->
+    <div id="wrapper" class="page-content">
+
+        <!-- ============================ Section one: hero ============================ -->
+
+        <section id="hero-slider" class="carousel slide c-fade" data-ride="carousel">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/logo.png" class="wow fadeInUp" alt="Columbia Logo" data-wow-delay="0.2s">
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#hero-slider" data-slide-to="0" class="active wow fadeInUp" data-wow-delay="0.2s"></li>
+                <li data-target="#hero-slider" data-slide-to="1" class="wow fadeInUp" data-wow-delay="0.4s"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active cover element-img" style="background-image: url('img/slider/slide-1.jpg')">
+                    <div class="carousel-caption">
+                        <h1 class="wow fadeInUp" data-wow-delay="0.4s">Building solutions for social good</h1>
+                        <hr class="mini white wow fadeInUp" data-wow-delay="0.6s">
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">Elixir Labs is a 501(c) nonprofit that builds websites, apps, and IT infrastructure for other nonprofits. Absolutely free.</p>
+                    </div>
+                    <div class="overlay black"></div>
+                </div>
+                <div class="item cover element-img" style="background-image: url('img/slider/slide-3.jpg')">
+                    <div class="carousel-caption">
+                        <h1 class="wow fadeInUp" data-wow-delay="0.2s">Strength in numbers </h1>
+                        <hr class="mini white wow fadeInUp" data-wow-delay="0.4s">
+                        <p class="wow fadeInUp" data-wow-delay="0.6s">Our team is composed of volunteer engineers from top computer science programs, world-class tech companies, and emerging startups.</p>
+                    </div>
+                    <div class="overlay black"></div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#hero-slider" data-slide="prev">
+                <span class="icon-arrow-left2"></span>
+            </a>
+            <a class="right carousel-control" href="#hero-slider" data-slide="next">
+                <span class="icon-arrow-right2"></span>
+            </a>
+
+        </section>
+<!-- ============================ TODO: add proper form submission 
+        <section class="container wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row padding">
+                <div class="col-xs-12">
+                    <h3>Form submission</h3>
+                    <hr class="mini">
+                    <p>Add two buttons here: one for submitting proposals, the other for joining the team. Both will pop up a form.</p>
+                </div>
+            </div>
+        </section>
+============================ -->
+        <!-- ============================ Section three: image and text ============================ -->
+
+        <section class="container-fluid white">
+            <div class="row">
+                <div class="col-md-6 textpadding wow fadeInLeft" data-wow-delay="0.5s">
+                    <h3>How can we help?</h3>
+                    <hr class="mini">
+                    <p>Starting and operating a sustainable nonprofit is difficult. One of the biggest headaches can be the technology side of things (including the associated costs). That's where we come in. Our team dedicates our skills and spare time to assist nonprofits that are doing good for the world. We can build you a website, mobile app, CRM, task automation tool...you name it. If you have a project that could use our help, follow the steps below to submit a proposal!</p>
+                </div>
+                <div class="col-md-6 element-img" style="background-image: url('img/collaborate.jpg'); height: 540px"></div>
+            </div>
+        </section>
+
+        <!-- ============================ Section six: ordered-lt list-items ============================ -->
+
+        <section class="red-lt">
+            <div class="container">
+                <div class="row padding">
+                    <div class="col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
+                        <h3><span class="number">01.</span>Identify your needs</h3>
+                        <br>
+                        <p>What do you want us to build? Even if you don't have a specific project in mind, are there places in your organization where technology can speed things up or solve lingering problems?</p>
+                        
+                        <br>
+                    
+                        <h3><span class="number">02.</span>Write up a proposal</h3>
+                        <br>
+                        <p>Write a quick one page document describing the request. It doesn't have to be perfect; just enough detail to give us an idea of what you're aiming for.</p>
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <h3><span class="number">03.</span>Submit the proposal</h3>
+                        <br>
+                        <p>Send us your proposal through our Contact Us form or shoot us an email with the attachment at contact@elixirlabs.org</p>
+                        
+                        <br>
+                    
+                        <h3><span class="number">04.</span>Wait for response</h3>
+                        <br>
+                        <p>We will try to respond to all requests within 24 hours. Due to the volume of submissions, we will choose projects based on engineering bandwidth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section eight: stats ============================ -->
+
+        <section id="stats" class="element-img" style="background-image: url('img/bookshelf.jpg')">
+            <div class="container padding">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <h3>Engineers</h3>
+                        <span class="counter">13</span>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <h3>Product Managers</h3>
+                        <span class="counter">3</span>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <h3>Business Analysts</h3>
+                        <span class="counter">2</span>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <h3>Projects</h3>
+                        <span class="counter">3</span>
+                    </div>
+                    <div class="overlay white"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ============================ Section fifteen: clients ============================ -->
+<!-- ============================ 
+        <section id="clients" class="white padding">
+             <div class="container">
+                <div class="row centertext">
+                    <div class="col-xs-12">
+                        <h3>Partner Organizations (insert nonprofits we work with here)</h3>
+                        <hr class="mini central">
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-6 wow fadeInUp" data-wow-delay="0.3s">
+                                        <img src="img/clients/hipster.png" class="img-responsive" alt="Hipster">
+                                    </div>
+                                    <div class="col-md-6 col-xs-6 wow fadeInUp" data-wow-delay="0.6s">
+                                        <img src="img/clients/henderson.png" class="img-responsive" alt="Henderson">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-6 wow fadeInUp" data-wow-delay="0.9s">
+                                        <img src="img/clients/walkers.png" class="img-responsive" alt="Walkers">
+                                    </div>
+                                    <div class="col-md-6 col-xs-6 wow fadeInUp" data-wow-delay="1.2s">
+                                        <img src="img/clients/sams.png" class="img-responsive" alt="Sams">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+============================ -->
+        <!-- ============================ Footer ============================ -->
+
+        <footer class="paddingnone">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="index.html" title="Columbia"><img src="img/logo.png" alt="Add alt tag"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- / END page #wrapper -->
+    </div>
+
+    <!-- ========== Load our scripts - keep positioned at the end of your document ========== -->
+
+    <script src="js/bootstrap.min.js"></script><!-- Bootstrap core - always load first -->
+    <script src="js/wow.min.js"></script><!-- WoW animations -->
+    <script src="js/jquery.nav.js"></script><!-- Left-hand bullet navigation -->
+    <script src="js/jquery.nicescroll.min.js"></script><!-- Scrollbars for whole page and main navigation -->
+    <script src="js/jquery.counterup.min.js"></script><!-- counterup plugin for increasing page stats -->
+    <script src="js/waypoints.min.js"></script><!-- Waypoints, needed for 'counterup' plugin -->
+    <script src="js/jquery.fitvids.js"></script><!-- Fitvids plugin, (responsive videos) -->
+    <script src="js/jquery.easing.min.js"></script><!-- Easing plugin, for opacity fade on menu background images -->
+    <script src="js/jquery.flexslider-min.js"></script><!-- Flexslider -->
+    <script src="js/scripts.js"></script><!-- Custom JS functions - always load last -->
+
+    <!-- Page-specific JS functions - these are functions that only occur on this specific page, so we DON'T want these placed in our scripts.js file as this file is loaded on every page for global site functions.  -->
+
+    <!-- Initialize CounterUp plugin for rounding up/animated statistics -->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+    <!-- Initialize fitvids.js plugin for responsive videos -->
+    <script>
+        $(document).ready(function(){
+            $(".fitvids").fitVids();
+        });
+    </script>
+
+    <!-- Initialize Hero Slider -->
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel()
+        });
+    </script>
+
+    <!-- Initialize flexslider for blog-roll slider -->
+    <script>
+        // second-flexslider
+        $(window).load(function() {
+          $('#blogslider').flexslider({
+            animation: "slide",
+            directionNav: false,
+            controlNav: false,
+            touch: false,
+            slideshow: false
+          });
+        });
+        $('.prev, .next').on('click', function() {
+          var href = $(this).attr('href');
+          $('#blogslider').flexslider(href)
+          return false;
+        })
+    </script>
+
+    <!-- Initialize Teamimonials Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('#testo-carousel').carousel({
+                pauseOnHover: true,
+                interval: 4000,
+            });
+        });
+    </script>
+
+    <!-- ========== Insert your Google Analytics code below this line ========== -->
+
+    <!-- ======================== End Google Analytics ========================= -->
+
+</body>
+
+</html>

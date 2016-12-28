@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><!-- Disable horrible auto-skype for contact numbers in IE -->
+    <meta name="description" content="Add a site description here"><!-- Add your site description -->
+    <meta name="author" content="Add author description here"><!-- Add your author description -->
+    <meta name="keywords" content="add,some,general,keywords,here,about,your,site"><!-- Add sites your keywords -->
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" /><!-- Include a Favicon, (always keep in root of folder) -->
+
+    <title>About</title><!-- Your page/site title -->
+
+    <!-- Load Our CSS - Do not alter the load order -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core - ALways load first -->
+    <link href="css/animate.css" rel="stylesheet"><!-- Animatations -->
+    <link href="css/icomoon.css" rel="stylesheet"><!-- Icon Font -->
+    <link href="css/jquery.fs.wallpaper.css" rel="stylesheet"/><!-- Video css file -->
+    <link href="css/style.css" rel="stylesheet"><!-- Main theme stylesheet -->
+    <link href="css/custom.css" rel="stylesheet"><!-- Custom styles - Always load last -->
+
+    <!-- Load our fonts form Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE9 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+
+    <!-- Load our jQuery, with an alternative source/fallback to our own version if request is unavailable -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Our page loader -->
+    <div class="loadstack">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ============================ Main menu, (modal window) ============================ -->
+
+    <div id="menumodal" class="modal fade" tabindex="-1" role="dialog" aria-label="menumodalLabel" aria-hidden="true">
+
+        <!-- Close modal trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Explore</h3>
+        </div>
+
+        <!-- Menu content -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Logo for desktops/large screens -->
+                    <div id="menumodalLabel" class="modal-title">
+                        <div class="modallogo">
+                            <img src="img/logosmall.png" alt="Columbia Logo">
+                        </div>
+                        <div class="modaltagline">
+                            <h3>Building solutions for social good</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="row motion">
+                        <li class="col-md-4 col-sm-6 two">
+                            <div class="menubg" style="background-image: url('img/menu/index.jpg')"></div>
+                            <a href="index.html" title="Home with Color Overlay Hero Image">Home<span>What we're doing</span></a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 eighteen">
+                            <div class="menubg" style="background-image: url('img/menu/about.jpg')"></div>
+                            <a href="about.html" title="About">About<span>Who we are</span></a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 twentyfour">
+                            <div class="menubg" style="background-image: url('img/menu/contact.jpg')"></div>
+                            <a href="contact.html" title="Contact">Contact Us<span>Submit proposals or join the team</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h3>Get in Touch</h3>
+                    <h4>contact@elixirlabs.org</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ End Main Navigation ==================================== -->
+
+    <!-- ============================ Social menu, (modal window) ============================ -->
+
+    <div id="socialmodal" class="modal fade" tabindex="-1" role="dialog" aria-label="socialmodalLabel" aria-hidden="true">
+
+        <!-- Menu Trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Be Social</h3>
+        </div>
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Connect with Jonathan Ive</h3>
+                    <hr class="mini white central">
+                    <ul class="socialicons motion">
+                        <li class="two twitter"><a href="http://twitter.com/" title="Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li class="four"><a href="http://dribbble.com/" title="Dribbble" class="dribbble" target="_blank"><span class="icon-dribbble"></span></a></li>
+                        <li class="six"><a href="http://facebook.com/" title="Facebook" class="facebook" target="_blank"><span class="icon-facebook"></span></a></li>
+                        <li class="eight"><a href="http://instagram.com/" title="Instagram" class="instagram" target="_blank"><span class="icon-instagram"></span></a></li>
+                        <li class="ten"><a href="http://vimeo.com/" title="Vimeo" class="vimeo" target="_blank"><span class="icon-vimeo"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============================== End social menu ============================== -->
+
+    <!-- ============================ Header/fixed sidebar ============================ -->
+
+    <header id="header">
+        
+        <!-- Main menu toggle -->
+        <button class="toggle" data-toggle="modal" data-target="#menumodal">
+            <span class="menu-bar bar-1"></span>
+            <span class="menu-bar bar-2"></span>
+            <span class="menu-bar bar-3"></span>
+        </button>
+        
+        <!-- Second logo for mobiles/tablets only. Maximum height of 65px -->
+        <div class="mobile_logo">
+            <img src="img/logosmall.png" alt="Columbia Logo">
+        </div>
+
+    </header>
+    
+    <!-- End header/fixed sidebar -->
+
+    <!-- ============================ Start the page content ============================ -->
+
+    <!-- Leading Page Container -->
+    <!-- Always keep all page content wrapped in this div, with id="wrapper" and class="page-content" -->
+    <div id="wrapper" class="page-content">
+
+        <!-- ============================ Section Start ============================ -->
+
+        <section id="two" class="container wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row padding">
+                <div class="col-xs-12 centertext">
+                    <h3>Who are we?</h3>
+                    <hr class="mini central">
+                    <h1>A team of engineers, designers, and product managers trying to make a difference.</h1>
+                    <hr class="title">
+                    <p>Elixir Labs was born out of a volunteer trip to Athens, Greece to help "Hack-The-Refugee-Crisis". The journey exposed the dire need for technical talent to solve a range of simple to complex problems that are present in growing nonprofits.  Since then, we've assembled a skilled team (still growing!) of volunteers who are passionate about giving back to their communities and donating their tech skill set for public good. We're always looking for more help, so drop us a line if you have spare cycles to dedicate to our mission.
+
+</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section End ============================== -->
+
+        <!-- ============================ Section Start ============================ -->
+
+        <section id="team" class="container-fluid dark-grey-dk">
+            <div class="row clearfix">
+                <ul class="col-md-6 team-avatars">
+                    <li class="wow fadeInUp animated" data-wow-delay="0.2s">
+                      <a href="#tm1" class="active"><img src="img/avatars/ava-1.jpg" alt="Aswin Pranam"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="0.4s">
+                      <a href="#tm2"><img src="img/avatars/ava-2.jpg" alt="Vivek Bhupatiraju"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="0.6s">
+                      <a href="#tm3"><img src="img/avatars/ava-3.jpg" alt="Omi Iyamu"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="0.8s">
+                      <a href="#tm4"><img src="img/avatars/ava-4.jpg" alt="Aashni Shah"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="1.0s">
+                      <a href="#tm5"><img src="img/avatars/ava-5.jpg" alt="Dennis Kim"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="1.2s">
+                      <a href="#tm6"><img src="img/avatars/ava-6.jpg" alt="Chris Cates"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="1.4s">
+                      <a href="#tm7"><img src="img/avatars/ava-7.jpg" alt="Bharath Srivatsan"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="1.6s">
+                      <a href="#tm8"><img src="img/avatars/ava-8.jpg" alt="Rolando Cruz"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="1.8s">
+                      <a href="#tm9"><img src="img/avatars/ava-9.jpg" alt="Abhijit Pranam"></a>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-delay="1.8s">
+                      <a href="#tm10"><img src="img/avatars/ava-10.jpg" alt="Raghav Nair"></a>
+                    </li>
+                </ul>
+                <div class="col-md-6 team-content">
+                    <div id="tm1" class="team-meta active">
+                        <h3>Founder, Elixir Labs</h3>
+                        <hr class="mini central">
+                        <p>Aswin Pranam</p>
+                    </div>
+                    <div id="tm2" class="team-meta">
+                        <h3>Product Manager @ TUNE</h3>
+                        <hr class="mini central">
+                        <p>Vivek Bhupatiraju</p>
+                    </div>
+                    <div id="tm3" class="team-meta">
+                        <h3>Technical Program Manager @ Google</h3>
+                        <hr class="mini central">
+                        <p>Omi Iyamu</p>
+                    </div>
+                    <div id="tm4" class="team-meta">
+                        <h3>Software Engineer @ Microsoft</h3>
+                        <hr class="mini central">
+                        <p>Aashni Shah</p>
+                    </div>
+                    <div id="tm5" class="team-meta">
+                        <h3>Computer Science @ UCSD</h3>
+                        <hr class="mini central">
+                        <p>Dennis Kim</p>
+                    </div>
+                    <div id="tm6" class="team-meta">
+                        <h3>Software Engineer</h3>
+                        <hr class="mini central">
+                        <p>Chris Cates</p>
+                    </div>
+                    <div id="tm7" class="team-meta">
+                        <h3>Computer Science @ Princeton</h3>
+                        <hr class="mini central">
+                        <p>Bharath Srivatsan</p>
+                    </div>
+                    <div id="tm8" class="team-meta">
+                        <h3>Computer Science @ The University of Toronto</h3>
+                        <hr class="mini central">
+                        <p>Rolando Cruz</p>
+                    </div>
+                    <div id="tm9" class="team-meta">
+                        <h3>Computer Science @ The University of Washington</h3>
+                        <hr class="mini central">
+                        <p>Abhijit Pranam</p>
+                    </div>
+                    <div id="tm10" class="team-meta">
+                        <h3>Software Engineer In Test @ Airbiquity</h3>
+                        <hr class="mini central">
+                        <p>Raghav Nair</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section End ============================== -->
+    </div>
+
+    <!-- ========== Load our scripts - keep positioned at the end of your document ========== -->
+
+    <script src="js/bootstrap.min.js"></script><!-- Bootstrap core - always load first -->
+    <script src="js/wow.min.js"></script><!-- WoW animations -->
+    <script src="js/jquery.nav.js"></script><!-- Left-hand bullet navigation -->
+    <script src="js/jquery.nicescroll.min.js"></script><!-- Scrollbars for whole page and main navigation -->
+    <script src="js/jquery.easing.min.js"></script><!-- Easing plugin, for opacity fade on menu background images -->
+    <script src="js/jquery.fs.wallpaper.js"></script><!-- Video plugin -->
+    <script src="js/scripts.js"></script><!-- Custom JS functions - always load last -->
+
+    <!-- Page-specific JS functions - these are functions that only occur on this specific page, so we DON'T want these placed in our scripts.js file as this file is loaded on every page for global site functions.  -->
+
+    <!-- Initialize background video in hero section, (above the fold) -->
+    <script>
+        $(document).ready(function() {
+            $("#elementvid").wallpaper({
+                source: {
+                    poster: "video/about-fallback.jpg",
+                    mp4:    "video/about.mp4",
+                    ogg:    "video/about.ogv",
+                    webm:   "video/about.webm"
+                }
+            });
+        });
+    </script>
+
+    <!-- ========== Insert your Google Analytics code below this line ========== -->
+
+    <!-- ======================== End Google Analytics ========================= -->
+
+</body>
+
+</html>
