@@ -53,14 +53,14 @@ html {
 @media (max-width: 1024px) {
   html {
     overflow-x: hidden;
-    overflow-y: scroll !important; 
+    overflow-y: scroll !important;
   }
 }
 
 @media (min-width: 1025px) {
   html {
     overflow-x: hidden;
-    overflow-y: hidden; 
+    overflow-y: hidden;
   }
 }
 
@@ -115,7 +115,7 @@ body {
   height: 100px;
   margin: 100px auto;
   background-color: #eee;
-  border-radius: 100%;  
+  border-radius: 100%;
   top: 50%;
   position: absolute;
   left: 50%;
@@ -1313,7 +1313,7 @@ blockquote.bigtext {
   -webkit-transform: scale(1.0);
   -o-transform: scale(1.0);
   -ms-transform: scale(1.0);
-  transform: scale(1.0); 
+  transform: scale(1.0);
   margin: 10px auto
 }
 
@@ -2126,7 +2126,7 @@ blockquote.bigtext {
   position: relative;
 }
 
-@media only screen and (max-width: 767px) {  
+@media only screen and (max-width: 767px) {
   #projects .projects {
     width:50%;
   }
@@ -2300,7 +2300,7 @@ ul.filters li p:hover {
   display: none;
   margin: auto;
   top: 50%;
-  margin-top: -70px;
+  margin-top: 70px;
   width: 100%;
   position: absolute;
   visibility: hidden!important;
@@ -2475,7 +2475,7 @@ ul.filters li p:hover {
 }
 
 .item blockquote {
-    border-left: none; 
+    border-left: none;
     margin: 0;
     padding: 0
 }
@@ -2492,7 +2492,7 @@ ul.filters li p:hover {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   #testo-slide {
     margin-top: 30px;
     min-height: 230px
@@ -2500,10 +2500,10 @@ ul.filters li p:hover {
 }
 
 /* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
   #testo-slide .carousel-indicators {
-    bottom: -50px !important;  
+    bottom: -50px !important;
   }
   #testo-slide .carousel-indicators li {
     display: inline-block;
@@ -3025,7 +3025,7 @@ span.icon-at {
   margin-left:0px;
   text-align: center;
 }
- 
+
  .plan {
   padding:10px;
   color: #777;
@@ -3040,7 +3040,7 @@ span.icon-at {
   border-bottom: 4px solid #777;
   border-right: 4px solid #777;
   border-left: 4px solid #777
-} 
+}
 
 .plan-name {
   padding: 40px 20px 20px;
@@ -3053,7 +3053,7 @@ span.icon-at {
 .pricing-table .plan .plan-name span {
   font-size: 14px;
 }
- 
+
 .pricing-table .plan ul {
   list-style: none;
   margin: 0;
@@ -3063,15 +3063,15 @@ span.icon-at {
 .pricing-table .plan-name h3 {
   font-size: 50px
 }
- 
+
 .pricing-table .plan ul li.plan-feature {
   padding: 15px;
 }
- 
+
 .pricing-three-column {
   margin: 0 auto;
 }
- 
+
 .pricing-variable-height .plan {
   float: none;
   margin-left: 2%;
@@ -3080,7 +3080,7 @@ span.icon-at {
   zoom:1;
   display:inline;
 }
- 
+
 .plan-mouseover .plan-name {
   background-color: #4e9a06 !important;
 }

@@ -7,3 +7,72 @@
  */
 
 /* Begin custom styles */
+
+
+span.text-content {
+	cursor: pointer;
+	display: table;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-position: center;
+	background-size: contain;
+}
+span.text-content span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.bio {
+	text-align: center;
+	color: white;
+/*	font-size: 1.4vw;*/
+}
+
+@media screen and (max-width: 1005px) {
+	.bio {
+		font-size: 12px;
+	}
+	#team hr.mini {
+	    margin-top: -6px;
+	    margin-bottom: 0px;
+	}
+
+	#team .team-meta p { 
+    	font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 705px) {
+	.bio {
+		font-size: 12px;
+	}
+	h3 {
+		line-height: 21px;
+	}
+	#team .team-meta p { 
+    	font-size: 15px;
+	}
+}
+
+
+@media screen and (max-width: 647px) {
+	.bio {
+		font-size: 8px;
+	}
+	#team .team-meta p { 
+    	font-size: 11px;
+	}
+}
+
+hr.mini { 
+	border-top: 3px solid navajowhite;
+}
+
+#team .team-meta p { 
+    color: #e7c5bd;
+}

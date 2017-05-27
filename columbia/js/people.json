@@ -1,0 +1,134 @@
+{
+  "person": [
+    {
+      "name":"Aswin Pranam",
+      "bio":"Founder, Elixir Labs",
+      "img":"img/avatars/ava-1.jpg"
+    },
+    {
+      "name":"Aashni Shah",
+      "bio":"COO of Elixir Labs, Software Engineer @ Microsoft",
+      "img":"img/avatars/ava-2.jpg"
+    },
+    {
+      "name":"Vivek Bhupatiraju",
+      "bio":"Product Manager @ TUNE",
+      "img":"img/avatars/ava-3.jpg"
+    },
+    {
+      "name":"Omi Iyamu",
+      "bio":"Technical Program Manager @ Google",
+      "img":"img/avatars/ava-4.jpg"
+    },
+    {
+      "name":"Chris Cates",
+      "bio":"Software Engineer",
+      "img":"img/avatars/ava-5.jpg"
+    },
+    {
+      "name":"Bharath Srivatsan",
+      "bio":"Computer Science @ Princeton",
+      "img":"img/avatars/ava-6.jpg"
+    },
+    {
+      "name":"Dianna Sanders",
+      "bio":"Campaign Manager @ Salesforce",
+      "img":"img/avatars/ava-7.jpg"
+    },
+    {
+      "name":"Pete Huang",
+      "bio":"Product Marketing & Customer Success @ Airtable",
+      "img":"img/avatars/ava-8.jpg"
+    },
+    {
+      "name":"Cynthia Li",
+      "bio":"Computer Science @ University of Toronto",
+      "img":"img/avatars/ava-9.jpg"
+    },
+    {
+      "name":"Kasim Siddiqui",
+      "bio":"Real Estate",
+      "img":"img/avatars/ava-10.jpg"
+    },
+    {
+      "name":"Raghav Nair",
+      "bio":"Software Engineer in Test @ Airbiquity",
+      "img":"img/avatars/ava-11.jpg"
+    },
+    {
+      "name":"Will Beebe",
+      "bio":"Software Engineer @ Tune",
+      "img":"img/avatars/ava-12.jpg"
+    },
+    {
+      "name":"Aidan Fitz",
+      "bio":"Computer Science @ Cornell",
+      "img":"img/avatars/ava-13.jpg"
+    },
+    {
+      "name":"Rahul Ramteke",
+      "bio":"Student @ Delhi Technological University",
+      "img":"img/avatars/ava-14.png"
+    },
+    {
+      "name":"Isabelle Lavandero",
+      "bio":"Computer Science @ NYU",
+      "img":"img/avatars/ava-15.jpg"
+    },
+    {
+      "name":"Jesse Cochran",
+      "bio":"Intern @ PIEtech",
+      "img":"img/avatars/ava-16.jpg"
+    },
+    {
+      "name":"Michelle Staton",
+      "bio":"Mobile Developer",
+      "img":"img/avatars/ava-17.jpg"
+    },
+    {
+      "name":"Sharanya Venkat",
+      "bio":"Consultant @ McKinsey",
+      "img":"img/avatars/ava-18.jpg"
+    },
+    {
+      "name":"Sumoni Gupta",
+      "bio":"Marketing Analyst @ Cengage Learning",
+      "img":"img/avatars/ava-19.jpg"
+    },
+    {
+      "name":"Arkin Dharawat",
+      "bio":"Student @ UIC",
+      "img":"img/avatars/ava-20.jpg"
+    },
+    {
+      "name":"Emily Zhao",
+      "bio":"Product Manager",
+      "img":"img/avatars/ava-21.jpg"
+    },
+    {
+      "name":"JJ Moi",
+      "bio":"Principal Design @ Tachyus",
+      "img":"img/avatars/ava-22.jpg"
+    },
+    {
+      "name":"Lucy K. Tan",
+      "bio":"Software Enginer @ Macys",
+      "img":"img/avatars/ava-23.jpg"
+    },
+    {
+      "name":"Rita Chan",
+      "bio":"UX/UI Designer @ University of Waterloo",
+      "img":"img/avatars/ava-24.jpg"
+    },
+    {
+    	"name": "Zach Moore",
+    	"bio": "Freelance Designer",
+    	"img":"img/avatars/ava-25.jpg"
+    },
+    {
+    	"name": "Priyanka Dhulkhed",
+    	"bio": "Computer Science @ Rutgers University",
+    	"img":"img/avatars/ava-26.jpeg"
+    }
+  ]
+}

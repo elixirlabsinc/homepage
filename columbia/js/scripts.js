@@ -76,6 +76,7 @@ $(document).ready(function($) {
     });
 
 
+
     // Flyup animation for main menu items
     // Combine with time delays, as seen between lines 767-860 in the theme stylesheet, (style.css)
     $(function () {
@@ -87,6 +88,7 @@ $(document).ready(function($) {
             trigger: 'focus'
         });
     });
+
 
     // Initialize Tooltips
     $("[data-toggle='tooltip']").tooltip();
@@ -128,7 +130,10 @@ $(document).ready(function($) {
         e.preventDefault();
     });
 
-    $(".team-avatars a").hover(function () {
+    $(".team-avatars").on("mouseenter mouseleave", "a", function () {
+    // $(".team-avatars a").hover(function () {
+        console.log("hover event triggered!");
+
         $(".team-avatars a").removeClass('active');
         $(this).addClass('active');
         var team_meta_id = $(this).attr('href');
