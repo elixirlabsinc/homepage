@@ -97,7 +97,7 @@
     },
     {
       "name":"Arkin Dharawat",
-      "bio":"Student @ UIC",
+      "bio":"Mathematics & Computer Science @ UIUC",
       "img":"img/avatars/ava-20.jpg"
     },
     {
@@ -129,6 +129,11 @@
     	"name": "Priyanka Dhulkhed",
     	"bio": "Computer Science @ Rutgers University",
     	"img":"img/avatars/ava-26.jpeg"
+    }, 
+    {
+      "name": "Manisha Goenka",
+      "bio": "Student @ San Jose State University",
+      "img":"img/avatars/ava-27.jpeg"
     }
   ]
 }
