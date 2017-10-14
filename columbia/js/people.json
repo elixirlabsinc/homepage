@@ -11,26 +11,6 @@
       "img":"img/avatars/ava-2.jpg"
     },
     {
-      "name":"Vivek Bhupatiraju",
-      "bio":"Product Manager @ TUNE",
-      "img":"img/avatars/ava-3.jpg"
-    },
-    {
-      "name":"Omi Iyamu",
-      "bio":"Technical Program Manager @ Google",
-      "img":"img/avatars/ava-4.jpg"
-    },
-    {
-      "name":"Chris Cates",
-      "bio":"Software Engineer",
-      "img":"img/avatars/ava-5.jpg"
-    },
-    {
-      "name":"Bharath Srivatsan",
-      "bio":"Computer Science @ Princeton",
-      "img":"img/avatars/ava-6.jpg"
-    },
-    {
       "name":"Dianna Sanders",
       "bio":"Campaign Manager @ Salesforce",
       "img":"img/avatars/ava-7.jpg"
@@ -41,24 +21,9 @@
       "img":"img/avatars/ava-8.jpg"
     },
     {
-      "name":"Cynthia Li",
-      "bio":"Computer Science @ University of Toronto",
-      "img":"img/avatars/ava-9.jpg"
-    },
-    {
-      "name":"Kasim Siddiqui",
-      "bio":"Real Estate",
-      "img":"img/avatars/ava-10.jpg"
-    },
-    {
-      "name":"Raghav Nair",
-      "bio":"Software Engineer in Test @ Airbiquity",
-      "img":"img/avatars/ava-11.jpg"
-    },
-    {
-      "name":"Will Beebe",
-      "bio":"Software Engineer @ Tune",
-      "img":"img/avatars/ava-12.jpg"
+      "name":"Cyrus Sassani",
+      "bio":"Android Developer",
+      "img":"img/avatars/ava-28.jpg"
     },
     {
       "name":"Aidan Fitz",
